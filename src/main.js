@@ -1,5 +1,5 @@
 import iziToast from 'izitoast';
-import { getImages } from './js/pixabay-api'; // Замінено імпорт
+import { getImages } from './js/pixabay-api';
 import { createGalleryMarkup, createLightBox } from './js/render-functions';
 
 const elements = {
@@ -34,7 +34,6 @@ const handleSearchSubmit = event => {
   displayLoader();
   elements.imageGallery.innerHTML = '';
 
-  // Заміна виклику функції
   getImages(searchQuery)
     .then(({ hits }) => {
       if (!hits.length) {
