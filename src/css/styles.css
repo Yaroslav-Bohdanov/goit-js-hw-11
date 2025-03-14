@@ -2,7 +2,6 @@
 @import url('./reset.css');
 @import url('./base.css');
 
-/* Importing styles from libraries */
 @import 'izitoast/dist/css/iziToast.min.css';
 @import 'simplelightbox/dist/simple-lightbox.min.css';
 
@@ -10,7 +9,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* form styles */
 .form {
   margin: 36px auto;
 }
@@ -55,7 +53,6 @@ body {
   background-color: #6c8cff;
 }
 
-/* Gallery styles */
 .gallery {
   display: flex;
   align-items: center;
@@ -84,7 +81,6 @@ body {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* descriptions styles */
 .description-list {
   padding-top: 4px;
   padding-left: 20px;
@@ -109,7 +105,6 @@ body {
   align-items: center;
 }
 
-/* loader styles */
 .loader {
   width: 64px;
   height: 64px;
